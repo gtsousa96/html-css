@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            width: 500px;
+            border-collapse: collapse;
+            position: relative;
+        }
+
+        td, th {
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        caption {
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: lightgrey;
+        }
+
+        thead, tfoot {
+            background-color: rgb(66, 66, 66);
+            color: white;
+        }
+
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: rgb(51, 51, 51);
+        }
+
+        tbody > tr:nth-child(2n) {
+            background-color: lightgray;
+        }
+
+        td.num {
+            text-align: right;
+        }
+    </style>
+
+</head>
+<body>
+    <h1>Uso de tabelas grandes</h1>
+
+    <table>
+        <caption>População das unidades federativas</caption>
+        <thead>
+            <tr>
+                <th scope="col">Estado</th>
+                <th scope="col" style="width: 50px;">População</th>
+            </tr>
+        </thead>
+        <tfoot>
+            <tr>
+                <th scope="row">Total de habitantes</th>
+                <td class="num"><strong>210.147.125</strong></td>
+            </tr>
+        </tfoot>
+        <tbody>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">45 919 049</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">21 168 791</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">17 264 943</td>
+            </tr>
+        </tbody>
+       
+    </table>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, ab animi! Accusantium quaerat ea tempore exercitationem tempora. Quos nostrum ipsam totam saepe distinctio molestias, qui amet minima adipisci et voluptatum! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora, aperiam. Eius, quia, reiciendis illum error aut, perferendis nulla accusamus architecto animi voluptatum iusto? Beatae unde omnis, quos maxime debitis commodi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis aut quisquam totam dolorum natus voluptates dolores, rerum iure? Dolores cupiditate nesciunt neque at voluptates sit placeat dignissimos deserunt, maiores amet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis ullam ad optio mollitia autem, saepe similique repellendus provident ducimus reiciendis esse ipsum porro, voluptatum cumque perspiciatis labore harum quibusdam corrupti.</p>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, ab animi! Accusantium quaerat ea tempore exercitationem tempora. Quos nostrum ipsam totam saepe distinctio molestias, qui amet minima adipisci et voluptatum! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora, aperiam. Eius, quia, reiciendis illum error aut, perferendis nulla accusamus architecto animi voluptatum iusto? Beatae unde omnis, quos maxime debitis commodi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis aut quisquam totam dolorum natus voluptates dolores, rerum iure? Dolores cupiditate nesciunt neque at voluptates sit placeat dignissimos deserunt, maiores amet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis ullam ad optio mollitia autem, saepe similique repellendus provident ducimus reiciendis esse ipsum porro, voluptatum cumque perspiciatis labore harum quibusdam corrupti.</p>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, ab animi! Accusantium quaerat ea tempore exercitationem tempora. Quos nostrum ipsam totam saepe distinctio molestias, qui amet minima adipisci et voluptatum! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora, aperiam. Eius, quia, reiciendis illum error aut, perferendis nulla accusamus architecto animi voluptatum iusto? Beatae unde omnis, quos maxime debitis commodi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis aut quisquam totam dolorum natus voluptates dolores, rerum iure? Dolores cupiditate nesciunt neque at voluptates sit placeat dignissimos deserunt, maiores amet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis ullam ad optio mollitia autem, saepe similique repellendus provident ducimus reiciendis esse ipsum porro, voluptatum cumque perspiciatis labore harum quibusdam corrupti.</p>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, ab animi! Accusantium quaerat ea tempore exercitationem tempora. Quos nostrum ipsam totam saepe distinctio molestias, qui amet minima adipisci et voluptatum! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora, aperiam. Eius, quia, reiciendis illum error aut, perferendis nulla accusamus architecto animi voluptatum iusto? Beatae unde omnis, quos maxime debitis commodi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis aut quisquam totam dolorum natus voluptates dolores, rerum iure? Dolores cupiditate nesciunt neque at voluptates sit placeat dignissimos deserunt, maiores amet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis ullam ad optio mollitia autem, saepe similique repellendus provident ducimus reiciendis esse ipsum porro, voluptatum cumque perspiciatis labore harum quibusdam corrupti.</p>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, ab animi! Accusantium quaerat ea tempore exercitationem tempora. Quos nostrum ipsam totam saepe distinctio molestias, qui amet minima adipisci et voluptatum! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora, aperiam. Eius, quia, reiciendis illum error aut, perferendis nulla accusamus architecto animi voluptatum iusto? Beatae unde omnis, quos maxime debitis commodi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis aut quisquam totam dolorum natus voluptates dolores, rerum iure? Dolores cupiditate nesciunt neque at voluptates sit placeat dignissimos deserunt, maiores amet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis ullam ad optio mollitia autem, saepe similique repellendus provident ducimus reiciendis esse ipsum porro, voluptatum cumque perspiciatis labore harum quibusdam corrupti.</p>
+</body>
+</html>
